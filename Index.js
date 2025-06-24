@@ -6,7 +6,7 @@ const speechBtn = document.getElementById('speech-btn');
 const toggleThemeBtn = document.getElementById('toggle-theme');
 
 // Replace with your actual API key
-const API_KEY = 'a416bfd392a5d4e344876f458b97d5bb';
+const API_KEY = 'f1c6cdb9c63024c0d4bb22dd52f93f41';
 
 // Fetch weather data by city name or zip
 async function fetchWeather(query) {
