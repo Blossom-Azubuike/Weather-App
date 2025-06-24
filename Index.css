@@ -1,0 +1,68 @@
+:root {
+    --bg: #bec8e2;
+    --text: #222222;
+    --card: #ebd5e4;
+    --button: #2dc5cf;
+}
+
+body.dark-mode {
+    --bg: #121212;
+    --text: #f1f1f1;
+    --card: #1e1e1e;
+    --button: #00695c;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.container {
+    text-align: center;
+    background: var(--card);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: var(--button);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.controls {
+    margin-bottom: 1rem;
+}
+
+#weather-result {
+    margin-top: 20px;
+}
+
+#weather-result img {
+    width: 80px;
+    margin-top: 10px;
+}
